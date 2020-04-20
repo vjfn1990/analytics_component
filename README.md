@@ -96,7 +96,9 @@ For the example given, the endpoint would return '{"items": 121}', because 121 i
 
 On the 'myapp/' directory, there is a file called 'tests.py' where some Unit Tests were implemented. These can be executed using the following command:
 
+```bash
 python manage.py test
+```
 
 To be able to run the tests, the webapp has to be listening on another console tab, as it was shown before with the command:
 
