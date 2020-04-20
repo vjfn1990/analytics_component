@@ -54,7 +54,14 @@ Move to the directory called 'myproject':
 cd myproject
 ```
 
-This is where there is a file called 'manage.py'. To deploy the webapp, do the following:
+This is where there is a file called 'manage.py'. Make all the migrations needed by the Django ORM Model, executing the following commands:
+
+```bash
+python manage.py makemigrations myapp
+python manage.py migrate
+```
+
+To deploy the webapp, do the following:
 
 ```bash
 python manage.py runserver 0.0.0.0:8686
