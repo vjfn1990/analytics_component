@@ -107,7 +107,7 @@ For the example given, the endpoint would return '{"items": 121}', because 121 i
 
 ## Unit Tests
 
-On the 'myapp/' directory, there is a file called 'tests.py' where some Unit Tests were implemented. These can be executed using the following command:
+On the 'myapp/' directory, there is a file called 'tests.py' where some Unit Tests were implemented. These can be executed using the following command (with the Virtual Environment active):
 
 ```bash
 python manage.py test
