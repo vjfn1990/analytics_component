@@ -37,12 +37,10 @@ virtualenv projectenv
 Activate the Virtual Environment executing:
 
 ```bash
-. project/bin/activate
+. projectenv/bin/activate
 ```
 
-Notice that there is a 'dot' and a 'space' at the beginning of the command above.
-
-Now the Virtual Environment should be active, showing '(projectenv)' at the beginning of the command prompt.
+Notice that there is a 'dot' and a 'space' at the beginning of the command above. Now the Virtual Environment should be active, showing '(projectenv)' at the beginning of the command prompt.
 
 Install the dependencies needed by the project (these dependencies aren't installed on the system but on the brand new Virtual Environment). Execute:
 
